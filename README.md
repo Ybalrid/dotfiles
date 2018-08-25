@@ -98,3 +98,4 @@ I'm using a super simple polybar configuration, in two bars, one on the bottom a
 
 .config/polybar/lauch.sh it the launch script called by i3, and the other files are used for configuration
 
+Symbols are handeled via a FontAwesome v4 font. on Arch, install from AUR `ttf-font-awesome-4`
