@@ -15,7 +15,7 @@ I'm running the following software. Depending on what you are pulling from this 
 Part of the content of this Git repository will be ommited when tools would pull files by themseves (like Vundle), or added as submodule you will need to init (like oh-my-zsh's plugins). You may need to bootstrap them by hand (like vundle for nvim, or oh-my-zsh).
 
  - ArchLinux
- - i3
+ - i3-gaps
  - polybar
  - dmenu
  - nitrogen
@@ -74,7 +74,7 @@ My termite config file doesn't a lot of fancy things. I use a patched powerline/
 files are .config/termite/config
 
 
-### i3
+### i3-gaps
 
 I use i3-gaps as a windowmanager/desktop environement. The config file has AZERTY keybindings, and no i3-bar by itself.
 
