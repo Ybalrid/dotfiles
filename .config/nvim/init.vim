@@ -1,9 +1,16 @@
+""Coerce yourself to use HJKL navigation only, no cursor key for you!
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+map <F5> :make<CR>
+
 ""General configuration
 "define some sensible configuraiton variables for programmers
 set background=dark
 set number
 set relativenumber
-set termguicolors
 set autoread
 set autoindent
 set ignorecase
@@ -21,6 +28,8 @@ set noexpandtab
 set copyindent
 set softtabstop=0
 set shiftwidth=4
+set list
+
 
 ""Plugin management
 "Vundle
@@ -29,7 +38,6 @@ filetype off
 
 set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
-
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -39,7 +47,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'Shougo/deoplete.nvim.git'
 Plugin 'zchee/deoplete-clang'
-"Plugin 'tweekmonster/deoplete-clang2'
 Plugin 'neomake/neomake'
 Plugin 'ntpeters/vim-better-whitespace'
 call vundle#end()
@@ -48,7 +55,7 @@ filetype plugin indent on
 ""Plugin settings
 "airline
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'luna'
+let g:airline_theme = 'angr'
 set noshowmode
 
 " deoplete config
@@ -68,7 +75,13 @@ call neomake#configure#automake('nrwi', 500)
 let g:neomake_cpp_enabled_makers = ['clang']
 let g:neomake_cpp_clang_maker = {
    \ 'exe': 'clang++',
-   \ 'args': [ '-Wall', '-Wextra', '-Weverything', '-pedantic', '-Wno-sign-conversion', '-Wno-c++98-compat'],
+   \ 'args': [ '-I/usr/include/SDL2/', '-Wall', '-Wextra', '-Weverything', '-pedantic', '-Wno-sign-conversion', '-Wno-c++98-compat'],
    \ }
 
+"lint code with clang:
+let g:neomake_c_enabled_makers = ['clang']
+let g:neomake_c_clang_maker = {
+   \ 'exe': 'clang',
+   \ 'args': [ '-I/usr/include/SDL2/', '-Wall', '-Wextra', '-Weverything', '-pedantic', '-Wno-sign-conversion'],
+   \ }
 let g:better_whitespace_enabled=1

@@ -3,7 +3,7 @@ allow_bold = true
 audible_bell = true
 clickable_url = true
 dynamic_title = true
-font = DroidSansMono Nerd Font Mono 12
+font = DroidSansMono Nerd Font Mono 15
 #fullscreen = true
 #geometry = 640x480
 #icon_name = terminal
@@ -72,48 +72,89 @@ cursor_shape = block
 # color14 = #93e0e3
 # color15 = #ffffff
 
-######## Material theme from terminal.sexy:
-
 [colors]
 
 # special
-foreground      = #eceff1
-foreground_bold = #eceff1
-cursor          = #eceff1
-# background      = #263238
- background = rgba(35, 50, 56, 0.8)
-
+foreground      = #746c48
+foreground_bold = #746c48
+cursor          = #746c48
+#background      = #170f0d
+background      = rgba(23, 15, 13, 0.95)
 # black
-color0  = #263238
-color8  = #37474f
+color0  = #392925
+color8  = #544b2e
 
 # red
-color1  = #ff9800
-color9  = #ffa74d
+color1  = #98724c
+color9  = #af652f
 
 # green
-color2  = #8bc34a
-color10 = #9ccc65
+color2  = #908f32
+color10 = #c3c13d
 
 # yellow
-color3  = #ffc107
-color11 = #ffa000
+color3  = #aa964c
+color11 = #c8b55b
 
 # blue
-color4  = #03a9f4
-color12 = #81d4fa
+color4  = #7b854e
+color12 = #70a16c
 
 # magenta
-color5  = #e91e63
-color13 = #ad1457
+color5  = #6b5644
+color13 = #98724c
 
 # cyan
-color6  = #009688
-color14 = #26a69a
+color6  = #5c5142
+color14 = #778725
 
 # white
-color7  = #cfd8dc
-color15 = #eceff1
+color7  = #c8b55b
+color15 = #e4dc8c
+
+
+######## Material theme from terminal.sexy:
+
+#[colors]
+#
+## special
+#foreground      = #eceff1
+#foreground_bold = #eceff1
+#cursor          = #eceff1
+## background      = #263238
+#background = rgba(35, 50, 56, 0.95)
+#
+## black
+#color0  = #263238
+#color8  = #37474f
+#
+## red
+#color1  = #ff9800
+#color9  = #ffa74d
+#
+## green
+#color2  = #8bc34a
+#color10 = #9ccc65
+#
+## yellow
+#color3  = #ffc107
+#color11 = #ffa000
+#
+## blue
+#color4  = #03a9f4
+#color12 = #81d4fa
+#
+## magenta
+#color5  = #e91e63
+#color13 = #ad1457
+#
+## cyan
+#color6  = #009688
+#color14 = #26a69a
+#
+## white
+#color7  = #cfd8dc
+#color15 = #eceff1
 
 
 [hints]
