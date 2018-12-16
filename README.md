@@ -63,7 +63,7 @@ It's using a bunch of plugins that aren't shipped with oh-my-zsh. They are track
  - zsh-syntax-highlighting
  - history-substring-search
 
-In my usage of this repo, I cli
+In my usage of this repo, I clone it this repository in `/home/$USER/dotfiles/` so this path is used in zshrc to point to this custom directory
 
 ### termite
 
