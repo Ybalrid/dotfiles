@@ -60,7 +60,7 @@ bottom = true
 fixed-center = true
 modules-right = xwindow
 modules-left = temperature  wlan eth cpu memory
-modules-center = mpd
+modules-center =
 
 [bar/top]
 inherit = bar/base
