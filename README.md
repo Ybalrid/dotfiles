@@ -8,6 +8,8 @@ The basic way to use these would be to pull this folder in your *~home* folder, 
 
 **Obviously** this folder should look pretty empty since every file starting with a dot is hidden on proper operating systems :wink:
 
+Also, this comes without any warranty of any kind, about it's usefullness or the fact that theses files may or may not work on your system
+
 ## Software configuration
 
 I'm running the following software. Depending on what you are pulling from this folder, you may need some of these installed
@@ -16,6 +18,7 @@ Part of the content of this Git repository will be omitted when tools would pull
 
  - ArchLinux
  - i3-gaps
+ - dex
  - polybar
  - dmenu
  - nitrogen
@@ -26,6 +29,10 @@ Part of the content of this Git repository will be omitted when tools would pull
  - zsh
  - oh-my-zsh (with a few plugins)
  - tmux
+ 
+The informations below may list additional packages required to get the pointed configuration going on.
+
+The `scripts` folder should be symlinked in `~/scripts`. But it's content ATM is just there to circumvent some kernel/drivers issues between some keyboard keys and the controls of the brightness of my laptop's screen. I plan on adding some other user scripts in there in the future
 
 ## Non exhaustive list of the config files here
 
@@ -75,7 +82,7 @@ files are .config/termite/config
 
 ### i3-gaps
 
-I use i3-gaps as a windowmanager/desktop environement. The config file has AZERTY keybindings, and no i3-bar by itself.
+I use i3-gaps as a windowmanager/desktop environment. The config file has AZERTY keybindings, and no i3-bar by itself.
 
 Other notable modifications is that I've shifted the "displacement" from their original JKLM/JKL; config to HJKL for 2 reasons :
 
@@ -88,7 +95,7 @@ This is installable via AUR on Arch, and is findable on github.
 
 I'm also using a program called "volumeicon" to have a mixer widget and bindings to controll my sound levels.
 
-This file will launch a launchscript for polybar, and the network manager applet. To have a wallpaper with this, I'm using Nitrogen. `nitrogen --restore` is called by i3 at startup.
+This file will launch a launch-script for polybar, and the network manager applet. To have a wallpaper with this, I'm using Nitrogen. `nitrogen --restore` is called by i3 at startup.
 
 
 ### polybar
@@ -97,4 +104,4 @@ I'm using a super simple polybar configuration, in two bars, one on the bottom a
 
 .config/polybar/lauch.sh it the launch script called by i3, and the other files are used for configuration
 
-Symbols are handeled via a FontAwesome v4 font. on Arch, install from AUR `ttf-font-awesome-4`
+Symbols are handled via a FontAwesome v4 font. on Arch, install from AUR `ttf-font-awesome-4`
