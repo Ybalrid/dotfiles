@@ -1,8 +1,8 @@
 # My current dotfiles
 
-This is for my personnal use, but I see no reason why I shouldn't share my Linux config online.
+This is for my personal use, but I see no reason why I shouldn't share my Linux config online.
 
-These may be of limited usefullness for you...  :wink:
+These may be of limited usefulness for you...  :wink:
 
 The basic way to use these would be to pull this folder in your *~home* folder, and symlink the files and folder from this repository to their intended places.
 
@@ -12,7 +12,7 @@ The basic way to use these would be to pull this folder in your *~home* folder, 
 
 I'm running the following software. Depending on what you are pulling from this folder, you may need some of these installed
 
-Part of the content of this Git repository will be ommited when tools would pull files by themseves (like Vundle), or added as submodule you will need to init (like oh-my-zsh's plugins). You may need to bootstrap them by hand (like vundle for nvim, or oh-my-zsh).
+Part of the content of this Git repository will be omitted when tools would pull files by themselves (like Vundle), or added as submodule you will need to init (like oh-my-zsh's plugins). You may need to bootstrap them by hand (like vundle for nvim, or oh-my-zsh).
 
  - ArchLinux
  - i3-gaps
@@ -57,14 +57,13 @@ This is a window compositor, I use it. I have transparent windwos and shadows. I
 
 I'm putting my .zshrc file, but it uses oh-my-zsh
 
-It's using a bunch of plugins that aren't shipped with oh-my-zsh, you'll have to git-clone them in your "custom" folder of your oh-my-zsh installation:
+It's using a bunch of plugins that aren't shipped with oh-my-zsh. They are tracked inside my zsh custom folder via `git submodule`. You need to run  `git submodule init && git submodule update` to get them in `.oh-my-zsh/custom` in this repository
 
  - zsh-completion
  - zsh-syntax-highlighting
  - history-substring-search
 
-The configured theme for oh-my-zsh is agnoster. It looks good with powerline patched font and some colorschemes. I use termite as my termial emulator, and my termit config file has a custom colorscheme pulled from the terminal.sexy website
-
+In my usage of this repo, I cli
 
 ### termite
 
