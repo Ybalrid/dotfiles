@@ -27,7 +27,7 @@ Part of the content of this Git repository will be ommited when tools would pull
  - oh-my-zsh (with a few plugins)
  - tmux
 
-## Unexhaustive list of the config files here
+## Non exhaustive list of the config files here
 
 ### tmux
 
