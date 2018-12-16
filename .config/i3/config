@@ -12,7 +12,7 @@
 #my_config
 
 #remove decorations, add some border
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 0
 
 
 set $bg-color 	         #583C4A
@@ -102,7 +102,7 @@ bindsym $mod+c exec dmenu_run -fn 'Droid Sans Mono-20' -x 0 -y 30 -w 1920
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
-bindsym $mod+k focus up
+bindsyb $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
@@ -144,7 +144,14 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+q focus parent
+#bindsym $mod+q focus parent
+
+bindsym $mod+q       gaps inner current plus 4
+bindsym $mod+a       gaps inner current minus 4
+bindsym $mod+Ctrl+q  gaps outer current plus 4
+bindsym $mod+Ctrl+a  gaps outer current minus 4
+bindsym $mod+Shift+d gaps inner current set 4; gaps outer current set 4
+bindsym $mod+Ctrl+d gaps inner current set 0; gaps outer current set 0
 
 # focus the child container
 #bindsym $mod+d focus child
