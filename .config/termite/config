@@ -75,86 +75,42 @@ cursor_shape = block
 [colors]
 
 # special
-foreground      = #746c48
-foreground_bold = #746c48
-cursor          = #746c48
-#background      = #170f0d
-background      = rgba(23, 15, 13, 0.95)
+foreground      = #e8dfd6
+foreground_bold = #e8dfd6
+cursor          = #e8dfd6
+background      = #021b21
+
 # black
-color0  = #392925
-color8  = #544b2e
+color0  = #032c36
+color8  = #065f73
 
 # red
-color1  = #98724c
-color9  = #af652f
+color1  = #c2454e
+color9  = #ef5847
 
 # green
-color2  = #908f32
-color10 = #c3c13d
+color2  = #7cbf9e
+color10 = #a2d9b1
 
 # yellow
-color3  = #aa964c
-color11 = #c8b55b
+color3  = #8a7a63
+color11 = #beb090
 
 # blue
-color4  = #7b854e
-color12 = #70a16c
+color4  = #2e3340
+color12 = #61778d
 
 # magenta
-color5  = #6b5644
-color13 = #98724c
+color5  = #ff5879
+color13 = #ff99a1
 
 # cyan
-color6  = #5c5142
-color14 = #778725
+color6  = #44b5b1
+color14 = #9ed9d8
 
 # white
-color7  = #c8b55b
-color15 = #e4dc8c
-
-
-######## Material theme from terminal.sexy:
-
-#[colors]
-#
-## special
-#foreground      = #eceff1
-#foreground_bold = #eceff1
-#cursor          = #eceff1
-## background      = #263238
-#background = rgba(35, 50, 56, 0.95)
-#
-## black
-#color0  = #263238
-#color8  = #37474f
-#
-## red
-#color1  = #ff9800
-#color9  = #ffa74d
-#
-## green
-#color2  = #8bc34a
-#color10 = #9ccc65
-#
-## yellow
-#color3  = #ffc107
-#color11 = #ffa000
-#
-## blue
-#color4  = #03a9f4
-#color12 = #81d4fa
-#
-## magenta
-#color5  = #e91e63
-#color13 = #ad1457
-#
-## cyan
-#color6  = #009688
-#color14 = #26a69a
-#
-## white
-#color7  = #cfd8dc
-#color15 = #eceff1
+color7  = #f2f1b9
+color15 = #f6f6c9
 
 
 [hints]
