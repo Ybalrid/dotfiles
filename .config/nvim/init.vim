@@ -55,7 +55,7 @@ filetype plugin indent on
 ""Plugin settings
 "airline
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'angr'
+let g:airline_theme = 'vice'
 set noshowmode
 
 " deoplete config
