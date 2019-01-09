@@ -75,6 +75,7 @@ plugins=(
   zsh-completions
   zsh-syntax-highlighting
   history-substring-search
+  fortune-cowsay-tux
 )
 
 source $ZSH/oh-my-zsh.sh

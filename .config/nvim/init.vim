@@ -47,7 +47,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'Shougo/deoplete.nvim.git'
 Plugin 'zchee/deoplete-clang'
-Plugin 'neomake/neomake'
+"Plugin 'neomake/neomake'
 Plugin 'ntpeters/vim-better-whitespace'
 call vundle#end()
 filetype plugin indent on
@@ -70,18 +70,18 @@ highlight Pmenu guibg=brown gui=bold
 
 "neomake config
 "call neomake when inserting (500ms delay), reading and writing a buffer
-call neomake#configure#automake('nrwi', 500)
+"call neomake#configure#automake('nrwi', 500)
 "lint code with clang:
-let g:neomake_cpp_enabled_makers = ['clang']
-let g:neomake_cpp_clang_maker = {
-   \ 'exe': 'clang++',
-   \ 'args': [ '-I/usr/include/SDL2/', '-Wall', '-Wextra', '-Weverything', '-pedantic', '-Wno-sign-conversion', '-Wno-c++98-compat'],
-   \ }
-
+"let g:neomake_cpp_enabled_makers = ['clang']
+"let g:neomake_cpp_clang_maker = {
+"   \ 'exe': 'clang++',
+"   \ 'args': [ '-I/usr/include/SDL2/', '-Wall', '-Wextra', '-Weverything', '-pedantic', '-Wno-sign-conversion', '-Wno-c++98-compat'],
+"   \ }
+"
 "lint code with clang:
-let g:neomake_c_enabled_makers = ['clang']
-let g:neomake_c_clang_maker = {
-   \ 'exe': 'clang',
-   \ 'args': [ '-I/usr/include/SDL2/', '-Wall', '-Wextra', '-Weverything', '-pedantic', '-Wno-sign-conversion'],
-   \ }
+"let g:neomake_c_enabled_makers = ['clang']
+"let g:neomake_c_clang_maker = {
+"   \ 'exe': 'clang',
+"   \ 'args': [ '-I/usr/include/SDL2/', '-Wall', '-Wextra', '-Weverything', '-pedantic', '-Wno-sign-conversion'],
+"   \ }
 let g:better_whitespace_enabled=1

@@ -102,7 +102,7 @@ bindsym $mod+c exec dmenu_run -fn 'Droid Sans Mono-20' -x 0 -y 30 -w 1920
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
-bindsyb $mod+k focus up
+bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
