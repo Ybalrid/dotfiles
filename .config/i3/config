@@ -45,12 +45,12 @@ bindsym $mod+F exec "firefox"
 exec dex -a                                                 #execute .desktop files
 exec --no-startup-id nitrogen --restore                     #wallpaper managed via nitrogen
 exec volumeicon                                             #I like to be able to control my volume...
-exec compton --config $HOME/.config/compton.conf -b         #screen compositor
+exec --no-startup-id compton > /dev/null     #screen compositor
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh #my polybar
 exec --no-startup-id nm-applet                              #Network manager
 exec --no-startup-id kalu
 #exec --no-startup-id "sleep 1;dropbox start"
-
+exec --no-startup-id nvidia-settings --load-config-only
 #set locker program
 exec --no-startup-id "xss-lock -- i3lock -e -d -c 000000"
 
@@ -85,7 +85,7 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill

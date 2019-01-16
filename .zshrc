@@ -73,6 +73,7 @@ plugins=(
   command-not-found
   archlinux
   zsh-completions
+  zsh-autosuggestions
   zsh-syntax-highlighting
   history-substring-search
   fortune-cowsay-tux
