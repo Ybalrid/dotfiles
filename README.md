@@ -14,13 +14,13 @@ Also, this comes without any warranty of any kind, about it's usefullness or the
 
 I'm running the following software. Depending on what you are pulling from this folder, you may need some of these installed
 
-Part of the content of this Git repository will be omitted when tools would pull files by themselves (like Vundle), or added as submodule you will need to init (like oh-my-zsh's plugins). You may need to bootstrap them by hand (like vundle for nvim, or oh-my-zsh).
+Par of these need to add git submodule you will need to init (like oh-my-zsh's plugins). You may need to bootstrap them by hand (like vundle for nvim, or oh-my-zsh).
 
  - ArchLinux
  - i3-gaps
  - dex
  - polybar
- - dmenu
+ - rofi
  - nitrogen
  - nvim
  - Vundle
@@ -29,7 +29,10 @@ Part of the content of this Git repository will be omitted when tools would pull
  - zsh
  - oh-my-zsh (with a few plugins)
  - tmux
- 
+ - fortune-mod
+ - cowsay
+ - lolcat
+
 The informations below may list additional packages required to get the pointed configuration going on.
 
 The `scripts` folder should be symlinked in `~/scripts`. But it's content ATM is just there to circumvent some kernel/drivers issues between some keyboard keys and the controls of the brightness of my laptop's screen. I plan on adding some other user scripts in there in the future
@@ -100,8 +103,8 @@ This file will launch a launch-script for polybar, and the network manager apple
 
 ### polybar
 
-I'm using a super simple polybar configuration, in two bars, one on the bottom and one on the top.
+I'm using a super simple polybar configuration, of one bar on the top with the systra in the middle
 
 .config/polybar/lauch.sh it the launch script called by i3, and the other files are used for configuration
 
-Symbols are handled via a FontAwesome v4 font. on Arch, install from AUR `ttf-font-awesome-4`
+Symbols are handled via a FontAwesome v4 font. on Arch, install from AUR `ttf-font-awesome-4`. This is if ou want to add the music player deamon thing
