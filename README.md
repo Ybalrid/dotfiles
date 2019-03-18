@@ -32,6 +32,7 @@ Par of these need to add git submodule you will need to init (like oh-my-zsh's p
  - fortune-mod
  - cowsay
  - lolcat
+ - lsd
 
 The informations below may list additional packages required to get the pointed configuration going on.
 
@@ -74,6 +75,8 @@ It's using a bunch of plugins that aren't shipped with oh-my-zsh. They are track
  - history-substring-search
 
 In my usage of this repo, I clone it this repository in `/home/$USER/dotfiles/` so this path is used in zshrc to point to this custom directory
+
+Beware, in the "custom" folder, the aliases may require you to install some other software. e.g. I'm using `lsd` instead of `ls` and `nvim` instead of `vim`
 
 ### termite
 
