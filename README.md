@@ -33,6 +33,7 @@ Par of these need to add git submodule you will need to init (like oh-my-zsh's p
  - cowsay
  - lolcat
  - lsd
+ - emacs (spacemacs distro installed in ~/emacs.d/)
 
 The informations below may list additional packages required to get the pointed configuration going on.
 
@@ -57,6 +58,12 @@ I use `nvim` as my main text editor, I use a few plugins, and they are managed v
 
 All of what you need to know is on the .config/nvim/init.vim folder, you'll need to bootsrap the Vundle plugin manager to make it usable.
 
+### emacs
+
+I'm learning to use emacs with spacemacs. I haven't dug extensively into configuring emacs, and spacemacs is a nice framework to start with as far as I can tell. I'm a vim user, and I cannot live without vim keybindings, but I don't mind having "vim" running inside a more "complete" environement. On Windows I use VsVim inside Visual Studio , on Linux I regularly use FakVim inegrated inside QtCreator for example.
+
+So, I have a .spacemacs with the layers I want and the config I'm running at the root of that directory.
+
 ### compton
 
 This is a window compositor, I use it. I have transparent windwos and shadows. I like it, I don't have much to say.
@@ -80,15 +87,15 @@ Beware, in the "custom" folder, the aliases may require you to install some othe
 
 ### termite
 
-
-My termite config file doesn't a lot of fancy things. I use a patched powerline/nerdfont font in my terminal, this one is installable as part of a "nerdfont" AUR package on ArchLinux
+I used to use termite. My termite config file doesn't do a lot of fancy things. I use a patched powerline/nerdfont font in my terminal, this one is installable as part of a "nerdfont" AUR package on ArchLinux
 
 files are .config/termite/config
 
+*note: My current desktop environement is currently KDE. It's actually easier to manage when debuging fixed-size window applictaions that capture the mouse like video games.*
 
 ### i3-gaps
 
-I use i3-gaps as a windowmanager/desktop environment. The config file has AZERTY keybindings, and no i3-bar by itself.
+I used i3-gaps as a windowmanager/desktop environment. The config file has AZERTY keybindings, and no i3-bar by itself.
 
 Other notable modifications is that I've shifted the "displacement" from their original JKLM/JKL; config to HJKL for 2 reasons :
 

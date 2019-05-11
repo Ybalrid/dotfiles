@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/ybalrid/.oh-my-zsh"
-export TERM=xterm-termite
+#export TERM=xterm-termite
 
 
 # Set name of the theme to load. Optionally, if you set this to "random"
@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export MANPATH="/usr/local/man:$MANPATH"
-export EDITOR=nvim
+#export EDITOR=nvim
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
