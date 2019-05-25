@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export MANPATH="/usr/local/man:$MANPATH"
-export EDITOR="emacsclient -c --alternate-editor emacs "
+export EDITOR="emacsclient -c --alternate-editor vim "
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
