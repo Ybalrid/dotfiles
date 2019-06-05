@@ -10,6 +10,10 @@ The basic way to use these would be to pull this folder in your *~home* folder, 
 
 Also, this comes without any warranty of any kind, about it's usefullness or the fact that theses files may or may not work on your system
 
+I am in the process of cleaning these. I used a peiced together i3 based environement for a while, but I stoped doing so. Also I switched from (Neo)Vim to emacs (with Spacemacs). Some file configurations for my old environement are still here, but I plan to remove them.
+
+I'm also in the process of uncoupling desktop environement/window mangaer with startup configuration simply by using xprofile (who knew it would be so simple.)
+
 ## Software configuration
 
 I'm running the following software. Depending on what you are pulling from this folder, you may need some of these installed
@@ -17,23 +21,23 @@ I'm running the following software. Depending on what you are pulling from this 
 Par of these need to add git submodule you will need to init (like oh-my-zsh's plugins). You may need to bootstrap them by hand (like vundle for nvim, or oh-my-zsh).
 
  - ArchLinux
- - i3-gaps
- - dex
- - polybar
- - rofi
- - nitrogen
- - nvim
- - Vundle
- - termite
- - compton
+ - i3-gaps (now unused)
+ - dex (now unused)
+ - polybar (now unused)
+ - rofi (now unused)
+ - nitrogen (now unused)
+ - nvim (now unused)
+ - Vundle (now unused)
+ - termite (now unused)
+ - compton (now unused)
  - zsh
  - oh-my-zsh (with a few plugins)
  - tmux
  - fortune-mod
  - cowsay
- - lolcat
  - lsd
  - emacs (spacemacs distro installed in ~/emacs.d/)
+ - sxhkd
 
 The informations below may list additional packages required to get the pointed configuration going on.
 
