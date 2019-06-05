@@ -1,4 +1,1 @@
-alias vim=nvim
-alias change_wallpaper="nitrogen ~/Pictures/Wallpaper"
-export EDITOR=nvim
-export TERMINAL=termite
+sxhkd&

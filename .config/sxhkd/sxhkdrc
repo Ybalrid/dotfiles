@@ -1,0 +1,17 @@
+super + f
+	firefox
+
+#open emacs. attempt to use the running daemon, if it fails, just launch an emacs instance instead
+super + e
+	emacsclient -c --alternate-editor emacs
+
+super + Return
+	konsole
+
+#custom script taht toggle the backlight
+XF86Launch6
+  ~/scripts/toogle_backlight.sh
+
+#reload configuration
+super + r
+  systemctl --user reload sxhkd.service
